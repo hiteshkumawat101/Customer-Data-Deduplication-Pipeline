@@ -250,7 +250,7 @@ def fuzzy_deduplicate(df, columns, threshold=90, log_file="fuzzy_deleted.txt", a
 
 # --- Main Pipeline ---
 def run_pipeline():
-    """Run the enhanced deduplication pipeline."""
+    """Run the deduplication pipeline."""
     df_test = load_data_with_source(FILE_A, FILE_B)
 
     # Phonetic matching
